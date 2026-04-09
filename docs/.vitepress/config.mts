@@ -14,7 +14,8 @@ export default defineConfig({
         text: "语言基础",
         items: [
           { text: "变量声明", link: "/语言基础/变量声明" },
-          { text: "基础变量类型", link: "/语言基础/基础变量类型" },
+          { text: "变量类型", link: "/语言基础/变量类型" },
+          { text: "基本语法", link: "/语言基础/基本语法" },
           { text: "高阶函数", link: "/语言基础/高阶函数" },
         ],
       },
@@ -25,7 +26,7 @@ export default defineConfig({
       {
         text: "其他知识点",
         items: [
-          { text: "变量提升", link: "/其他知识点/变量提升" },
+          { text: "提升", link: "/其他知识点/提升" },
           { text: "作用域", link: "/其他知识点/作用域" },
           { text: "原型链", link: "/其他知识点/原型链" },
           { text: "函数闭包", link: "/其他知识点/函数闭包" },

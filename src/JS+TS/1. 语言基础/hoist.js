@@ -1,4 +1,4 @@
-const { default: chalk } = require("chalk"); // ESM 模块默认导出，使用 CJS 引入
+import chalk from "chalk"; // ESM 模块默认导出，使用 CJS 引入
 console.log(chalk.yellow(`=====================`));
 console.log(chalk.yellow(`变量提升`));
 console.log(chalk.yellow(`=====================`));
