@@ -11,17 +11,30 @@ export default defineConfig({
     sidebar: [
       {
         text: "语言基础",
-        items: [{ text: "变量声明（var, let, const）", link: "/语言基础/变量声明" }, { text: "Runtime API Examples" }]
+        items: [
+          { text: "变量声明", link: "/语言基础/变量声明" },
+          { text: "高阶函数", link: "/语言基础/高阶函数" },
+        ],
       },
       {
-        text: "重难点",
-        items: [{ text: "变量声明（var, let, const）" }, { text: "Runtime API Examples" }]
-      }
-    ]
+        text: "语言重难点",
+        items: [{ text: "类", link: "/语言重难点/类" }],
+      },
+      {
+        text: "其他知识点",
+        items: [
+          { text: "变量提升", link: "/其他知识点/变量提升" },
+          { text: "作用域", link: "/其他知识点/作用域" },
+          { text: "原型链", link: "/其他知识点/原型链" },
+          { text: "函数闭包", link: "/其他知识点/函数闭包" },
+          { text: "IIFE（立即执行函数表达式）", link: "/其他知识点/IIFE" },
+        ],
+      },
+    ],
 
     // socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }]
   },
   markdown: {
-    lineNumbers: true
-  }
+    lineNumbers: true,
+  },
 });

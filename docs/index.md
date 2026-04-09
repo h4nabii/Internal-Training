@@ -11,7 +11,7 @@ hero:
       text: 语言基础
       link: /语言基础/变量声明
     - theme: alt
-      text: 重难点
+      text: 语言重难点
       link: /api-examples
 
 # features:

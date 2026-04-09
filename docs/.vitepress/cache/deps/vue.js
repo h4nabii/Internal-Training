@@ -169,7 +169,7 @@ import {
   withKeys,
   withMemo,
   withModifiers,
-  withScopeId
+  withScopeId,
 } from "./chunk-2JF6KYKB.js";
 export {
   BaseTransition,
@@ -342,5 +342,5 @@ export {
   withKeys,
   withMemo,
   withModifiers,
-  withScopeId
+  withScopeId,
 };
