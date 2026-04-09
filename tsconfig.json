@@ -43,5 +43,8 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "allowJs": true
-  }
+  },
+  "references": [
+    { "path": "./docs/tsconfig.json" }
+  ]
 }

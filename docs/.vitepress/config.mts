@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/internal-training/",
   title: "技术培训",
   description: "JS+TS基础和重难点讲解",
   themeConfig: {
@@ -13,6 +14,7 @@ export default defineConfig({
         text: "语言基础",
         items: [
           { text: "变量声明", link: "/语言基础/变量声明" },
+          { text: "基础变量类型", link: "/语言基础/基础变量类型" },
           { text: "高阶函数", link: "/语言基础/高阶函数" },
         ],
       },
@@ -32,7 +34,7 @@ export default defineConfig({
       },
     ],
 
-    // socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }]
+    socialLinks: [{ icon: "github", link: "https://github.com/h4nabii/Internal-Training" }],
   },
   markdown: {
     lineNumbers: true,

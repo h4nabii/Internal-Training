@@ -12,11 +12,11 @@ hero:
       link: /语言基础/变量声明
     - theme: alt
       text: 语言重难点
-      link: /api-examples
+      link: /语言重难点/类
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: VitePress
+    details: 此网页由 VitePress 构建，感兴趣的也可以查看相关文档
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
