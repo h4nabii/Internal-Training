@@ -1,14 +1,4 @@
-import {
-  type Book,
-  type BookComment,
-  getBookComments,
-  getUser,
-  getUserBooks,
-  type User,
-} from "./callback-hell-helper.js";
-
-type BookWithComments = Book & { comments?: BookComment[] };
-type UserWithBooks = User & { books?: BookWithComments[] };
+import { getBookComments, getUser, getUserBooks } from "./callback-hell-helper.js";
 
 (() => {
   const xhList = ["20210001", "20210002"];

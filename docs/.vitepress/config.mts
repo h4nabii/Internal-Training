@@ -24,9 +24,8 @@ export default defineConfig({
       {
         text: "语言重难点",
         items: [
-          { text: "事件循环", link: "/语言重难点/事件循环" },
-          { text: "异步", link: "/语言重难点/异步" },
-          { text: "类", link: "/语言重难点/类" },
+          { text: "异步和事件循环", link: "/语言重难点/异步和事件循环" },
+          { text: "类和原型链", link: "/语言重难点/类和原型链" },
           { text: "闭包", link: "/语言重难点/闭包" },
           { text: "模块化", link: "/语言重难点/模块化" },
         ],

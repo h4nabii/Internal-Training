@@ -12,7 +12,7 @@ hero:
       link: /语言基础/变量声明
     - theme: alt
       text: 语言重难点
-      link: /语言重难点/类
+      link: /语言重难点/异步和事件循环
     - theme: alt
       text: GitHub
       link: https://github.com/h4nabii/Internal-Training
