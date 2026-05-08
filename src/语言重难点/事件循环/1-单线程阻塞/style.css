@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Noto Sans SC", "Segoe UI", monospace;
+  background: #f0f2f5;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 24px;
+  padding: 20px 28px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  z-index: 10;
+  position: relative;
+  max-width: 650px;
+  pointer-events: auto;
+}
+
+.time-panel {
+  font-weight: bold;
+  font-size: 1.3rem;
+  background: #98bcff;
+  color: #000000;
+  padding: 8px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+button {
+  background: #1e3c72;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sync-btn {
+  background: #b91c1c;
+}
+.sync-btn:hover {
+  background: #991b1b;
+}
+
+button:disabled {
+  opacity: 0.6;
+  transform: none;
+  cursor: not-allowed;
+}
+
+/* 小球样式由 JS 动态添加，留一些基础样式确保可读 */
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition:
+    left 0.02s linear,
+    top 0.02s linear; /* 平滑微调，实际靠 js 更新 */
+}
+
+.msg {
+  background: #98bcff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  padding: 8px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
