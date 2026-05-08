@@ -24,9 +24,10 @@ export default defineConfig({
       {
         text: "语言重难点",
         items: [
-          { text: "闭包", link: "/语言重难点/闭包" },
+          { text: "事件循环", link: "/语言重难点/事件循环" },
           { text: "异步", link: "/语言重难点/异步" },
           { text: "类", link: "/语言重难点/类" },
+          { text: "闭包", link: "/语言重难点/闭包" },
           { text: "模块化", link: "/语言重难点/模块化" },
         ],
       },
@@ -38,6 +39,7 @@ export default defineConfig({
           { text: "作用域解析", link: "/其他知识点/作用域解析" },
           { text: "函数闭包", link: "/其他知识点/函数闭包" },
           { text: "可迭代对象", link: "/其他知识点/可迭代对象" },
+          { text: "对象属性", link: "/其他知识点/对象属性" },
           { text: "原型链", link: "/其他知识点/原型链" },
           { text: "IIFE（立即执行函数表达式）", link: "/其他知识点/IIFE" },
         ],

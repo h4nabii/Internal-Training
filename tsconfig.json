@@ -10,6 +10,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
+    "moduleResolution": "nodenext",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -44,7 +45,5 @@
     "skipLibCheck": true,
     "allowJs": true
   },
-  "references": [
-    { "path": "./docs/tsconfig.json" }
-  ]
+  "references": [{ "path": "./docs/tsconfig.json" }]
 }
