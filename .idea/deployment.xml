@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="MY" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="zp-server" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="MY">
         <serverdata>
           <mappings>
             <mapping deploy="/usr/share/nginx/html/internal-training" local="$PROJECT_DIR$/docs/.vitepress/dist" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zp-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/html/xd-js-training" local="$PROJECT_DIR$/docs/.vitepress/dist" web="/" />
+            <mapping deploy="/html/xd-js-training-public/sync-demo" local="$PROJECT_DIR$/src/语言重难点/事件循环/1-单线程阻塞" web="/" />
           </mappings>
         </serverdata>
       </paths>

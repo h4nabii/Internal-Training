@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="46cf3009-76c8-4bba-8215-7edeb63bbfde" name="zp-server">
+        <fileTransfer rootFolder="/usr/share/nginx" accessType="SFTP" host="124.70.214.8" port="22" sshConfigId="273af92b-95fd-42c1-99e6-97831c144745" sshConfig="智瀑服务器">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
