@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/internal-training/",
+  base: "/xd-js-training/",
   title: "技术培训",
   description: "JS+TS基础和重难点讲解",
   themeConfig: {
